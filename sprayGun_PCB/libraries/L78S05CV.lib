@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# L78S05CV
+#
+DEF L78S05CV IC 0 40 N N 1 L N
+F0 "IC" 100 -300 50 H V L BNN
+F1 "L78S05CV" 100 -400 50 H V L BNN
+F2 "TO-220-STANDING" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "5.0 V" 0 0 50 H I L BNN "VOUT"
+F5 "35.0 V" 0 0 50 H I L BNN "VIN-MAX"
+F6 "8.0 V" 0 0 50 H I L BNN "VIN-MIN"
+F7 "St Microelectronics" 0 0 50 H I L BNN "MANUFACTURER"
+F8 "2.0 A" 0 0 50 H I L BNN "CURRENT"
+F9 "TO-220" 0 0 50 H I L BNN "PACKAGE"
+F10 "L78S05CV" 0 0 50 H I L BNN "TME"
+DRAW
+T 0 -80 -170 60 0 0 0 GND Normal 0 L B
+T 0 -175 -25 60 0 0 0 IN Normal 0 L B
+T 0 5 -25 60 0 0 0 OUT Normal 0 L B
+S -200 -200 200 100 0 0 16 f
+X ~ 1 -300 0 100 R 40 40 0 0 I 
+X ~ 2 0 -300 100 U 40 40 0 0 I 
+X ~ 3 300 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

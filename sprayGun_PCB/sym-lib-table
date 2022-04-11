@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "SN65HVD266D")(type "Legacy")(uri "${KIPRJMOD}/libraries/SN65HVD266D.lib")(options "")(descr ""))
+  (lib (name "L78S05CV")(type "Legacy")(uri "${KIPRJMOD}/libraries/L78S05CV.lib")(options "")(descr ""))
+)
