@@ -2,4 +2,5 @@
   (lib (name "SN65HVD266D")(type "Legacy")(uri "${KIPRJMOD}/libraries/SN65HVD266D.lib")(options "")(descr ""))
   (lib (name "L78S05CV")(type "Legacy")(uri "${KIPRJMOD}/libraries/L78S05CV.lib")(options "")(descr ""))
   (lib (name "malin")(type "KiCad")(uri "${KIPRJMOD}/malin.kicad_sym")(options "")(descr ""))
+  (lib (name "SN65HVD253D")(type "Legacy")(uri "${KIPRJMOD}/libraries/SN65HVD253D.lib")(options "")(descr ""))
 )
