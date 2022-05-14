@@ -1409,7 +1409,6 @@
     )
   )
 
-
   (junction (at 147.32 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 00c93bff-63c7-42f3-a1cb-45c4b3317fae)
   )
@@ -2877,10 +2876,10 @@
     (property "Reference" "J3" (id 0) (at 102.87 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 102.87 77.4699 0)
+    (property "Value" "VL53L0X 1" (id 1) (at 102.87 77.4699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 100.33 74.93 0)
+    (property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" (id 2) (at 100.33 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 100.33 74.93 0)
@@ -3069,8 +3068,8 @@
   (symbol (lib_id "L78S05CV:L78S05CV") (at 86.36 110.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3b326fd4-daad-4d06-8b79-090c7080e013)
-    (property "Reference" "IC1" (id 0) (at 86.36 102.87 0))
-    (property "Value" "L78S05CV" (id 1) (at 86.36 105.41 0))
+    (property "Reference" "IC1" (id 0) (at 87.63 102.87 0))
+    (property "Value" "L78S05CV" (id 1) (at 87.63 105.41 0))
     (property "Footprint" "libraries:L78S05CV" (id 2) (at 86.36 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
@@ -3139,12 +3138,12 @@
   )
 
   (symbol (lib_id "power:+15V") (at 68.58 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 4248a2c2-22ba-4db2-b6c7-839933540320)
     (property "Reference" "#PWR0115" (id 0) (at 68.58 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+15V" (id 1) (at 68.58 105.41 0))
+    (property "Value" "+15V" (id 1) (at 66.04 105.41 0))
     (property "Footprint" "" (id 2) (at 68.58 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3219,7 +3218,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 76.2 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 56ac9925-aa2b-4730-b857-147410c9eca3)
     (property "Reference" "#FLG0102" (id 0) (at 76.2 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3304,7 +3303,7 @@
     (property "Reference" "#PWR0124" (id 0) (at 151.13 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 151.13 72.39 0))
+    (property "Value" "+5V" (id 1) (at 151.13 72.39 0))
     (property "Footprint" "" (id 2) (at 151.13 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3368,10 +3367,10 @@
     (property "Reference" "J18" (id 0) (at 134.62 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 134.62 77.4699 0)
+    (property "Value" "VL53L0X 2" (id 1) (at 134.62 77.4699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 132.08 74.93 0)
+    (property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" (id 2) (at 132.08 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 74.93 0)
@@ -3421,10 +3420,10 @@
     (property "Reference" "C8" (id 0) (at 382.27 36.8362 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 381 39.37 0)
+    (property "Value" "0.1uF" (id 1) (at 381 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 379.73 38.1 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 379.73 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 379.73 38.1 0)
@@ -3456,10 +3455,10 @@
     (property "Reference" "C7" (id 0) (at 367.03 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 365.76 39.37 0)
+    (property "Value" "10uF" (id 1) (at 365.76 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 372.11 38.1 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (id 2) (at 372.11 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 372.11 38.1 0)
@@ -3510,7 +3509,7 @@
     (property "Reference" "#PWR0105" (id 0) (at 337.82 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 337.82 64.77 0))
+    (property "Value" "GND" (id 1) (at 337.82 64.77 0))
     (property "Footprint" "" (id 2) (at 337.82 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3585,10 +3584,10 @@
     (property "Reference" "C6" (id 0) (at 283.21 48.2662 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 281.94 50.8 0)
+    (property "Value" "0.1uF" (id 1) (at 281.94 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 280.67 49.53 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 280.67 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 280.67 49.53 0)
@@ -3602,8 +3601,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a3b9f172-346c-4bd1-85cf-94b0027e7523)
     (property "Reference" "U2" (id 0) (at 364.49 44.45 0))
-    (property "Value" "" (id 1) (at 364.49 46.99 0))
-    (property "Footprint" "" (id 2) (at 364.49 64.77 0)
+    (property "Value" "SN65HVD253D" (id 1) (at 364.49 46.99 0))
+    (property "Footprint" "libraries:SN65HVD253D" (id 2) (at 364.49 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 364.49 64.77 0)
@@ -3673,7 +3672,7 @@
     (property "Reference" "J19" (id 0) (at 52.07 119.3799 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 52.07 121.9199 90)
+    (property "Value" "E-stop" (id 1) (at 52.07 121.9199 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" (id 2) (at 49.53 120.65 0)
@@ -3789,7 +3788,7 @@
     (in_bom yes) (on_board yes)
     (uuid b8e34c1c-44c7-4351-ade8-cd701dc85663)
     (property "Reference" "D1" (id 0) (at 49.53 142.24 0))
-    (property "Value" "" (id 1) (at 49.53 144.78 0))
+    (property "Value" "LED1" (id 1) (at 49.53 144.78 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 45.72 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3820,7 +3819,7 @@
     (in_bom yes) (on_board yes)
     (uuid c387e394-be8f-431f-99d4-8f1e73893226)
     (property "Reference" "D3" (id 0) (at 126.0475 113.03 0))
-    (property "Value" "" (id 1) (at 126.0475 115.57 0))
+    (property "Value" "PWR LED" (id 1) (at 126.0475 115.57 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 124.46 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3888,7 +3887,7 @@
     (property "Reference" "#PWR0103" (id 0) (at 387.35 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 387.35 82.55 0))
+    (property "Value" "GND" (id 1) (at 387.35 82.55 0))
     (property "Footprint" "" (id 2) (at 387.35 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3998,7 +3997,7 @@
     (property "Value" "10uF" (id 1) (at 266.7 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 273.05 49.53 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (id 2) (at 273.05 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 273.05 49.53 0)
@@ -4237,7 +4236,7 @@
     (in_bom yes) (on_board yes)
     (uuid fb37bd5f-2dc8-4b25-aedb-6953997d81d7)
     (property "Reference" "D2" (id 0) (at 49.53 161.29 0))
-    (property "Value" "" (id 1) (at 49.53 163.83 0))
+    (property "Value" "LED2" (id 1) (at 49.53 163.83 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 45.72 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4283,8 +4282,34 @@
     (pin "1" (uuid 30723ab9-e72f-4855-b39a-b8012ac941b3))
   )
 
+  (sheet (at 431.8 35.56) (size 36.83 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0d6d79aa-3153-425d-b3e8-bdf472b45573)
+    (property "Sheet name" "CAN bus interface" (id 0) (at 431.8 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "untitled.kicad_sch" (id 1) (at 431.8 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 431.8 81.28) (size 36.83 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 31a459f2-9a3d-4a51-90da-54980605e343)
+    (property "Sheet name" "Power Regulation" (id 0) (at 431.8 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power_regulation.kicad_sch" (id 1) (at 431.8 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573" (page "2"))
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343" (page "3"))
   )
 
   (symbol_instances
@@ -4296,6 +4321,15 @@
     )
     (path "/65633971-6b0e-4e75-b1e0-17beac534a24"
       (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/5c2ddb99-0ddd-465d-bed9-1c251ec639fa"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/604b004a-8c68-43c6-b47f-3ab31e54b98a"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/e213368f-13b9-41c2-8182-d9559fd0b037"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/99735f80-fc4a-4e54-b92e-61498876cbbb"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
@@ -4411,6 +4445,45 @@
     (path "/9900b7cd-086e-4271-91cb-f0fceaed54a3"
       (reference "#PWR0133") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/15fe29b0-a484-4525-946b-4b6f3dfc201e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/1c8135b7-f279-409a-af45-66e5c2a7f1c7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/2deb0d77-220a-4a1d-b183-9907b7805844"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/2f3f8f55-0391-4353-b782-738a428e203b"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/44a26aca-4ebd-4927-878e-ba6db571d1b9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/4c1ebf08-4672-4223-bb4a-3ab36efa0501"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/7f245329-92ad-424a-8732-7f666a030c5d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/822ca65c-9fb0-4f42-9c3d-d20c7e4b3bf3"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/9a567967-c24a-4ce0-bfbc-8acda99218d8"
+      (reference "#PWR?") (unit 1) (value "+15V") (footprint "")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/b131e105-d8fd-4e6d-a016-0d571cef49bf"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/b6d69628-e062-4075-a313-914f77944b75"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/f6adcf50-0c74-401f-85b3-92eacfea996d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/fc1f2709-01a1-4e5e-a56f-72ab0c7a6067"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
+    )
     (path "/f5677c41-5f29-4841-b647-470fd7be97f4"
       (reference "A1") (unit 1) (value "Arduino_Nano_v3.x") (footprint "Module:Arduino_Nano")
     )
@@ -4438,6 +4511,30 @@
     (path "/7db51744-3d72-435c-afd4-c6d6ee6dd491"
       (reference "C8") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/037ecc92-5939-4422-9288-87eb58efcf45"
+      (reference "C?") (unit 1) (value "22pF") (footprint "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/829e0b76-ab95-46cf-ad06-b6265b5fb97f"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/a9856c1a-046a-4e52-ae6a-3b57ddd09541"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/abd7f2b5-ebf6-4918-aadc-24dabcc8e48f"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/afbf1dfc-919d-4448-89f6-752ecb0df37c"
+      (reference "C?") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/c434d867-e31f-4345-bdde-33c75f8c31bd"
+      (reference "C?") (unit 1) (value "33uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/f1ed622a-b559-41f2-b539-eec91b028457"
+      (reference "C?") (unit 1) (value "22pF") (footprint "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/ff3e7c13-d304-480b-9670-c19182b5adfc"
+      (reference "C?") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+    )
     (path "/b8e34c1c-44c7-4351-ade8-cd701dc85663"
       (reference "D1") (unit 1) (value "LED1") (footprint "LED_THT:LED_D5.0mm")
     )
@@ -4447,8 +4544,14 @@
     (path "/c387e394-be8f-431f-99d4-8f1e73893226"
       (reference "D3") (unit 1) (value "PWR LED") (footprint "LED_THT:LED_D5.0mm")
     )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/f1f470e5-7404-4d75-9082-66d43f2081e0"
+      (reference "D?") (unit 1) (value "PWR LED") (footprint "LED_THT:LED_D5.0mm")
+    )
     (path "/3b326fd4-daad-4d06-8b79-090c7080e013"
       (reference "IC1") (unit 1) (value "L78S05CV") (footprint "libraries:L78S05CV")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/4e8d2ee4-895b-45d4-ab5d-ac123520bd37"
+      (reference "IC?") (unit 1) (value "L78S05CV") (footprint "libraries:L78S05CV")
     )
     (path "/de8663a4-45ac-43a8-8713-c7b4162e9adb"
       (reference "J1") (unit 1) (value "PWR IN") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal")
@@ -4507,6 +4610,15 @@
     (path "/b1f43cb9-0c8f-47cc-b5ae-c17c711ec555"
       (reference "J19") (unit 1) (value "E-stop") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal")
     )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/d756acec-1a96-4e69-96c4-194c7d84882c"
+      (reference "J?") (unit 1) (value "CAN1") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/ed7c39cb-7cd1-4ff4-8bda-bda4b2ba85d6"
+      (reference "J?") (unit 1) (value "CAN1 termination") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/f325da4d-a5ef-43de-9449-fc04b5519ebf"
+      (reference "J?") (unit 1) (value "CAN1 pin header") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
     (path "/df574e9b-8f32-40e3-99f8-a0619b978e00"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
@@ -4522,14 +4634,32 @@
     (path "/04c05965-a93f-4053-9715-97cdaff02523"
       (reference "R5") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/0b07151d-1e51-4c5c-9507-078287d5cd55"
+      (reference "R?") (unit 1) (value "120R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/31a459f2-9a3d-4a51-90da-54980605e343/19a450e3-949c-4268-b3cd-05ce76ff367a"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/a29cf775-a3e7-4575-948d-5cafd08c7f30"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
     (path "/00d76577-cf97-4ac9-bd06-d04ace104360"
       (reference "U1") (unit 1) (value "MCP2515-xSO") (footprint "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm")
     )
     (path "/a3b9f172-346c-4bd1-85cf-94b0027e7523"
       (reference "U2") (unit 1) (value "SN65HVD253D") (footprint "libraries:SN65HVD253D")
     )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/174b4d65-731c-4cb7-85c3-2d298efe72bf"
+      (reference "U?") (unit 1) (value "SN65HVD253D") (footprint "libraries:SN65HVD253D")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/23b2db49-71d0-4ff9-bf48-92e1f62077e3"
+      (reference "U?") (unit 1) (value "MCP2515-xSO") (footprint "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm")
+    )
     (path "/e5b918a2-322b-4c07-8cc7-e780d4b52327"
       (reference "Y1") (unit 1) (value "16MHz") (footprint "Crystal:Crystal_HC49-4H_Vertical")
+    )
+    (path "/0d6d79aa-3153-425d-b3e8-bdf472b45573/f377b136-56b5-4e23-8cd2-f732b5942e28"
+      (reference "Y?") (unit 1) (value "16MHz") (footprint "Crystal:Crystal_HC49-4H_Vertical")
     )
   )
 )
